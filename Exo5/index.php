@@ -1,26 +1,24 @@
 <?php
 //déclaration de ma variable
-$answer = 'yes';
+$answer = 'non';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-<head>
-  <meta charset="utf-8"/>
-  <title>PHP Partie 1 Exercice 5</title>
-</head>
-<body>
-  <!-- html body qui permet afficher , mettre toujours des simples côte en PHP, le == signifie comparaison-->
-  <p>
+  <head>
+    <meta charset="utf-8"/>
+    <title>PHP Partie 1 Exercice 5</title>
+  </head>
+  <body>
+    <!-- html body qui permet afficher , mettre toujours des simples côte en PHP, le == signifie comparaison-->
     <?php
-    if ($answer == 'yes')
-    {
-      echo 'Vous avez répondu Oui !';
+    if ($answer == 'yes'){
+      ?>
+      <p>Vous avez répondu oui</p>
+      <?php
     }
-    else
-    {
-      echo 'Vous avez répondu Non !';
-    }
-    ?>
-  </p>
-</body>
+    else{
+      ?>
+      <p>Vous avez répondu Non</p>
+    <?php } ?>
+  </body>
 </html>
