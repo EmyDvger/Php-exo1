@@ -8,6 +8,7 @@ $km = 1;
   <title>PHP partie 1 Exercice 3</title>
 </head>
 <body>
+  <!-- Déclaration d'une variable et initialisation par 1 -->
   <h1>Exo 3 PHP</h1>
   <p><?php echo $km;?></P>
   <p><?php echo $km=3;?></P>
