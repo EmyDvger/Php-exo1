@@ -5,7 +5,7 @@ $gender = 'homme';
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <title>PHP Partie 2 Exo 2</title>
   </head>
   <body>
