@@ -13,11 +13,11 @@ $departments= array (
     <title>PHP Partie 3 Exo 5</title>
   </head>
   <body>
-    <p>
       <?php
-      foreach($departments as $element){
-        echo $element . '<br />';}
-      ?>
-    </p>
+      // Le foreach (pour chaque éléments) on demande à afficher l'index donc les numéros et la valeur donc les départements
+      foreach($departments as $element => $value){ ?>
+      <!-- On met un paragraphe pour que ce soit en HTML -->
+      <p><?php echo $element . ' ' . $value; ?></p>
+    <?php }; ?>
   </body>
 </html>
